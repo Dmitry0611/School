@@ -1,0 +1,57 @@
+header {
+    background-color: $white-color;
+
+    .container {
+        .header {
+            display: flex;
+            justify-content: space-between;
+
+            .header_header {
+                width: 50%;
+                @include padding (54px  0 0 0);
+                a {
+                    font-family: 'Clash Grotesk';
+                    @include font($black-color, 36px, 400);
+                }
+                h3 {
+                    font-family: 'Clash Grotesk';
+                    @include font($black-color, 14px, 400);
+
+                }
+            }
+            .header_nav {
+                width: 35%;
+                @include padding (50px  0 0 0);
+                nav {
+                    display: flex;
+
+                    ul {
+                        li {
+                            @include margin (0 159px 0 0);
+                            @include padding (0 0 15px 0);
+
+                            a {
+                                font-family: 'Clash Grotesk';
+                                @include font($gray-color, 14px, 400);
+
+                            }
+                        }
+                    }
+                }
+            }
+            .header_link {
+                display: flex;
+                width: 170px;
+                height: 20%;
+                border-bottom: solid 1px $black-color;
+                @include padding (67px  0 0 0);
+                a {
+                    font-family: 'Clash Grotesk';
+                    text-transform: uppercase;
+                    @include font($black-color, 23px, 400);
+                    @include padding(0 10px 0 0);
+                }
+            }
+        }
+    }
+}

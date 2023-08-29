@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+*,
+*::after, *::before {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1400px;
+    @include padding (0 100px 0 100px);
+    margin: 0 auto;
+}
+.container_big {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
