@@ -48,8 +48,9 @@ a {
 
 .container {
   max-width: 1400px;
-  padding: 0 100px 0 100px;
+  background-color: #F5F5F5;
   margin: 0 auto;
+  padding: 0 100px 0 100px;
 }
 
 .container_big {
@@ -165,4 +166,81 @@ section .container .school_button a:hover {
   scale: 1.1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+section .container .education_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .container .education_flex .education_left {
+  width: 58%;
+}
+section .container .education_flex .education_left h2 {
+  width: 35%;
+  height: 16%;
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  background-image: url("../css/images/education_border.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 8px 27px;
+  color: #1D1D1D;
+  font-size: 30px;
+  font-weight: 400;
+}
+section .container .education_flex .education_right {
+  width: 59%;
+}
+section .container .education_flex .education_right .education_header h2 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  line-height: 0.9;
+  padding: 0 0 21px 0;
+  color: #1D1D1D;
+  font-size: 64px;
+  font-weight: 400;
+}
+section .container .education_flex .education_right .education_header h2 span {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #E87594;
+  font-size: 64px;
+  font-weight: 400;
+}
+section .container .education_flex .education_right .education_header p {
+  font-family: "Clash Grotesk";
+  line-height: 1.1;
+  color: #112221;
+  font-size: 23px;
+  font-weight: 400;
+}
+section .container .education_flex .education_right .content_slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section .container .education_flex .education_right .content_slider .card_slider {
+  width: 32%;
+  height: 220px;
+  border: solid 1px #6D7775;
+}
+section .container .education_flex .education_right .content_slider .card_slider span {
+  text-align: center;
+  font-family: "Clash Grotesk";
+  color: #1D1D1D;
+  font-size: 78px;
+  font-weight: 400;
+}
+section .container .education_flex .education_right .content_slider .card_slider p {
+  text-align: center;
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #1D1D1D;
+  font-size: 16px;
+  font-weight: 600;
 }

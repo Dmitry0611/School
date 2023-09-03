@@ -1,0 +1,78 @@
+section {
+    .container {
+
+        .education_flex {
+            display: flex;
+
+            .education_left {
+                width: 58%;
+
+                h2 {
+                    width: 35%;
+                    height: 16%;
+                    font-family: 'Clash Grotesk';
+                    text-transform: uppercase;
+                    background-image: url('../css/images/education_border.png');
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    @include padding(8px 27px);
+                    @include font($black-color2, 30px, 400);
+                }
+            }
+            .education_right {
+                width: 59%;
+
+                .education_header {
+
+                    h2 {
+                        font-family: 'Clash Grotesk';
+                        text-transform: uppercase;
+                        line-height: .9;
+                        @include padding(0 0 21px 0);
+                        @include font($black-color2, 64px, 400);
+                        span {
+                            font-family: 'Clash Grotesk';
+                            text-transform: uppercase;
+                            @include font($pink-color, 64px, 400);
+                        }
+                    }
+                    p {
+                        font-family: 'Clash Grotesk';
+                        line-height: 1.1;
+                        @include font($black-color3, 23px, 400);
+                    }
+                }
+                .education_slider {
+
+                    .buttons_slider {
+
+                        button {
+
+                        }
+                    }
+                }
+                .content_slider {
+                    display: flex;
+                    justify-content: space-between;
+                    .card_slider {
+                        width: 32%;
+                        height: 220px;
+                        border: solid 1px $gray-color;
+                        span {
+                            text-align: center;
+                            font-family: 'Clash Grotesk';
+                            @include font($black-color2, 78px, 400);
+                        }
+                        p {
+                            text-align: center;
+                            font-family: 'Clash Grotesk';
+                            text-transform: uppercase;
+                            @include font($black-color2, 16px, 600);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
