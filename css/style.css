@@ -216,7 +216,7 @@ section .container .education_flex .education_right .education_header p {
   font-size: 23px;
   font-weight: 400;
 }
-section .container .education_flex .education_right .content_slider {
+section .container .education_flex .education_right .education_slider .content_slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,23 +224,103 @@ section .container .education_flex .education_right .content_slider {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .container .education_flex .education_right .content_slider .card_slider {
-  width: 32%;
+section .container .education_flex .education_right .education_slider .content_slider .card_slider {
+  width: 33%;
   height: 220px;
   border: solid 1px #6D7775;
+  margin: 0 10px 0 0;
 }
-section .container .education_flex .education_right .content_slider .card_slider span {
+section .container .education_flex .education_right .education_slider .content_slider .card_slider .number {
   text-align: center;
   font-family: "Clash Grotesk";
+  padding: 50px 0 0 0;
   color: #1D1D1D;
   font-size: 78px;
   font-weight: 400;
 }
-section .container .education_flex .education_right .content_slider .card_slider p {
+section .container .education_flex .education_right .education_slider .content_slider .card_slider .number_content {
   text-align: center;
   font-family: "Clash Grotesk";
   text-transform: uppercase;
+  padding: 0 0 59px 0;
   color: #1D1D1D;
   font-size: 16px;
   font-weight: 600;
+}
+section .container .education_flex .education_right .education_slider .content_slider .card_slider:last-child {
+  margin: 0 0 0 0;
+}
+section .container .education_flex .education_right .education_started {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+section .container .education_flex .education_right .education_started .education_link {
+  width: 28%;
+  border-bottom: solid 1px #121212;
+  padding: 50px 0 0 0;
+}
+section .container .education_flex .education_right .education_started .education_link a {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #121212;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 0 10px 0 0;
+}
+
+section .container .advantages_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .container .advantages_flex .advantages_left {
+  width: 50%;
+}
+section .container .advantages_flex .advantages_left img {
+  width: 100%;
+  padding: 0 60px 0 0;
+}
+section .container .advantages_flex .advantages_right {
+  width: 50%;
+}
+section .container .advantages_flex .advantages_right h2 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  line-height: 1;
+  color: #1D1D1D;
+  font-size: 64px;
+  font-weight: 400;
+}
+section .container .advantages_flex .advantages_right h2 span {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #3441b9;
+  font-size: 64px;
+  font-weight: 400;
+}
+section .container .advantages_flex .advantages_right .advantages_content {
+  padding: 50px 0 0 0;
+}
+section .container .advantages_flex .advantages_right .advantages_content .content h5 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #112221;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 0 0 0;
+}
+section .container .advantages_flex .advantages_right .advantages_content .content p {
+  font-family: "Clash Grotesk";
+  border-bottom: solid 1px #6D7775;
+  padding: 0 0 40px 0;
+  color: #6D7775;
+  font-size: 16px;
+  font-weight: 400;
+}
+section .container .advantages_flex .advantages_right .advantages_content .margin {
+  margin: 20px 0 0 0;
 }

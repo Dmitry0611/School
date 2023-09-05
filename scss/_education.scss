@@ -51,24 +51,46 @@ section {
 
                         }
                     }
-                }
-                .content_slider {
-                    display: flex;
-                    justify-content: space-between;
-                    .card_slider {
-                        width: 32%;
-                        height: 220px;
-                        border: solid 1px $gray-color;
-                        span {
-                            text-align: center;
-                            font-family: 'Clash Grotesk';
-                            @include font($black-color2, 78px, 400);
+                    .content_slider {
+                        display: flex;
+                        justify-content: space-between;
+                        .card_slider {
+                            width: 33%;
+                            height: 220px;
+                            border: solid 1px $gray-color;
+                            @include margin(0 10px 0 0);
+                            .number {
+                                text-align: center;
+                                font-family: 'Clash Grotesk';
+                                @include padding(50px 0 0 0);
+                                @include font($black-color2, 78px, 400);
+                            }
+                            .number_content {
+                                text-align: center;
+                                font-family: 'Clash Grotesk';
+                                text-transform: uppercase;
+                                @include padding(0 0 59px 0);
+                                @include font($black-color2, 16px, 600);
+                            }
                         }
-                        p {
-                            text-align: center;
+                        .card_slider:last-child {
+                            @include margin(0 0 0 0);
+                        }
+                    }
+                }
+                .education_started {
+                    display: flex;
+                    justify-content: right;
+
+                    .education_link {
+                            width: 28%;
+                            border-bottom: solid 1px $black-color;
+                            @include padding (50px  0 0 0);
+                        a {
                             font-family: 'Clash Grotesk';
                             text-transform: uppercase;
-                            @include font($black-color2, 16px, 600);
+                            @include font($black-color, 23px, 400);
+                            @include padding(0 10px 0 0);
                         }
                     }
                 }
