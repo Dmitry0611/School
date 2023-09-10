@@ -174,7 +174,7 @@ section .container .education_flex {
   display: flex;
 }
 section .container .education_flex .education_left {
-  width: 58%;
+  width: 50%;
 }
 section .container .education_flex .education_left h2 {
   width: 35%;
@@ -191,7 +191,7 @@ section .container .education_flex .education_left h2 {
   font-weight: 400;
 }
 section .container .education_flex .education_right {
-  width: 59%;
+  width: 50%;
 }
 section .container .education_flex .education_right .education_header h2 {
   font-family: "Clash Grotesk";
@@ -216,7 +216,35 @@ section .container .education_flex .education_right .education_header p {
   font-size: 23px;
   font-weight: 400;
 }
-section .container .education_flex .education_right .education_slider .content_slider {
+section .container .education_flex .education_right .education_slider .buttons_slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 50px 0 20px 0;
+}
+section .container .education_flex .education_right .education_slider .buttons_slider .prev {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0 20px 0 0;
+}
+section .container .education_flex .education_right .education_slider .buttons_slider .prev:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+section .container .education_flex .education_right .education_slider .buttons_slider .next {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+section .container .education_flex .education_right .education_slider .buttons_slider .next:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+section .container .education_flex .education_right .education_slider .content_slider .content_slider_inner .slides .slides_slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,13 +252,13 @@ section .container .education_flex .education_right .education_slider .content_s
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-section .container .education_flex .education_right .education_slider .content_slider .card_slider {
+section .container .education_flex .education_right .education_slider .content_slider .content_slider_inner .slides .slides_slider .card_slider {
   width: 33%;
   height: 220px;
   border: solid 1px #6D7775;
   margin: 0 10px 0 0;
 }
-section .container .education_flex .education_right .education_slider .content_slider .card_slider .number {
+section .container .education_flex .education_right .education_slider .content_slider .content_slider_inner .slides .slides_slider .card_slider .number {
   text-align: center;
   font-family: "Clash Grotesk";
   padding: 50px 0 0 0;
@@ -238,7 +266,7 @@ section .container .education_flex .education_right .education_slider .content_s
   font-size: 78px;
   font-weight: 400;
 }
-section .container .education_flex .education_right .education_slider .content_slider .card_slider .number_content {
+section .container .education_flex .education_right .education_slider .content_slider .content_slider_inner .slides .slides_slider .card_slider .number_content {
   text-align: center;
   font-family: "Clash Grotesk";
   text-transform: uppercase;
@@ -247,7 +275,7 @@ section .container .education_flex .education_right .education_slider .content_s
   font-size: 16px;
   font-weight: 600;
 }
-section .container .education_flex .education_right .education_slider .content_slider .card_slider:last-child {
+section .container .education_flex .education_right .education_slider .content_slider .content_slider_inner .slides .slides_slider .card_slider:last-child {
   margin: 0 0 0 0;
 }
 section .container .education_flex .education_right .education_started {
@@ -345,7 +373,7 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 1660px;
   display: block;
 }
 .section_courses .container_big .container {
@@ -522,4 +550,101 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
           transform: rotate(44deg);
   -webkit-transition: all 1s;
   transition: all 1s;
+}
+
+.our_team {
+  padding: 143px 0 140px 0;
+}
+.our_team .container .our_team_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.our_team .container .our_team_flex .our_team_left {
+  width: 63%;
+}
+.our_team .container .our_team_flex .our_team_left h2 {
+  width: 38%;
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  background-image: url("../css/images/education_border.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #1D1D1D;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 7px 25px;
+}
+.our_team .container .our_team_flex .our_team_right {
+  width: 83%;
+}
+.our_team .container .our_team_flex .our_team_right h3 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  line-height: 0.9;
+  color: #1D1D1D;
+  font-size: 64px;
+  font-weight: 400;
+}
+.our_team .container .our_team_flex .our_team_right h3 span {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #3441b9;
+  font-size: 64px;
+  font-weight: 400;
+}
+.our_team .container .our_team_flex .our_team_right p {
+  font-family: "Clash Grotesk";
+  color: #112221;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 20px 0 50px 0;
+}
+.our_team .container .cards_teacher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.our_team .container .cards_teacher .card_teacher {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  padding: 0 20px 0 0;
+}
+.our_team .container .cards_teacher .card_teacher:last-child {
+  padding: 0 0 0 0;
+}
+.our_team .container .cards_teacher .card_teacher:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.our_team .container .cards_teacher .card_teacher img {
+  width: 100%;
+}
+.our_team .container .cards_teacher .card_teacher h3 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #1D1D1D;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px 0 10px 0;
+}
+.our_team .container .cards_teacher .card_teacher p {
+  font-family: "Clash Grotesk";
+  line-height: 0.9;
+  color: #112221;
+  font-size: 19px;
+  font-weight: 400;
 }

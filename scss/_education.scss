@@ -5,7 +5,7 @@ section {
             display: flex;
 
             .education_left {
-                width: 58%;
+                width: 50%;
 
                 h2 {
                     width: 35%;
@@ -21,7 +21,7 @@ section {
                 }
             }
             .education_right {
-                width: 59%;
+                width: 50%;
 
                 .education_header {
 
@@ -46,35 +46,60 @@ section {
                 .education_slider {
 
                     .buttons_slider {
+                        display: flex;
+                        justify-content: right;
+                        @include padding(50px 0 20px 0);
+                        .prev {
+                            transition: all .3s;
+                            @include padding(0 20px 0 0);
 
-                        button {
+                            &:hover {
+                                opacity: 0.6;
+                                transition: all .3s;
+                            }
+                        }
+                        .next {
+                            transition: all .3s;
 
+                            &:hover {
+                                opacity: 0.6;
+                                transition: all .3s;
+                            }
                         }
                     }
                     .content_slider {
-                        display: flex;
-                        justify-content: space-between;
-                        .card_slider {
-                            width: 33%;
-                            height: 220px;
-                            border: solid 1px $gray-color;
-                            @include margin(0 10px 0 0);
-                            .number {
-                                text-align: center;
-                                font-family: 'Clash Grotesk';
-                                @include padding(50px 0 0 0);
-                                @include font($black-color2, 78px, 400);
+
+                        .content_slider_inner {
+
+                            .slides {
+
+                                .slides_slider {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .card_slider {
+                                        width: 33%;
+                                        height: 220px;
+                                        border: solid 1px $gray-color;
+                                        @include margin(0 10px 0 0);
+                                        .number {
+                                            text-align: center;
+                                            font-family: 'Clash Grotesk';
+                                            @include padding(50px 0 0 0);
+                                            @include font($black-color2, 78px, 400);
+                                        }
+                                        .number_content {
+                                            text-align: center;
+                                            font-family: 'Clash Grotesk';
+                                            text-transform: uppercase;
+                                            @include padding(0 0 59px 0);
+                                            @include font($black-color2, 16px, 600);
+                                        }
+                                    }
+                                    .card_slider:last-child {
+                                        @include margin(0 0 0 0);
+                                    }
+                                }
                             }
-                            .number_content {
-                                text-align: center;
-                                font-family: 'Clash Grotesk';
-                                text-transform: uppercase;
-                                @include padding(0 0 59px 0);
-                                @include font($black-color2, 16px, 600);
-                            }
-                        }
-                        .card_slider:last-child {
-                            @include margin(0 0 0 0);
                         }
                     }
                 }
