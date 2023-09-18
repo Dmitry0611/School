@@ -648,3 +648,86 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
   font-size: 19px;
   font-weight: 400;
 }
+
+.price {
+  padding: 0 0 0 0;
+}
+.price .container .price_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.price .container .price_flex .price_left {
+  width: 50%;
+}
+.price .container .price_flex .price_left h2 {
+  width: 21%;
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  background-image: url("../css/images/price_border.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #1D1D1D;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 7px 25px;
+  margin: 0 0 109px 0;
+}
+.price .container .price_flex .price_left .price_discont {
+  background-image: url("../css/images/discount_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.price .container .price_flex .price_left .price_discont h3 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  text-align: center;
+  color: #F5F5F5;
+  font-size: 78px;
+  font-weight: 400;
+  padding: 35px 0 25px 0;
+}
+.price .container .price_flex .price_left .price_discont .small_header {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  opacity: 0.7;
+  color: #F7F6F2;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 5px 39px;
+}
+.price .container .price_flex .price_left .price_discont p {
+  font-family: "Clash Grotesk";
+  color: #F7F6F2;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 20px 39px;
+}
+.price .container .price_flex .price_left .price_discont .promo_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.price .container .price_flex .price_left .price_discont .promo_flex .promo_left p {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #F7F6F2;
+  font-size: 16px;
+  font-weight: 600;
+}
+.price .container .price_flex .price_left .price_discont .promo_flex .promo_right .promo_cod_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.price .container .price_flex .price_left .price_discont .promo_flex .promo_right .promo_cod_flex img {
+  width: 100%;
+}
+.price .container .price_flex .price_right {
+  width: 50%;
+}
