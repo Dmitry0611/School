@@ -682,6 +682,11 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  height: 277px;
+  margin: 0 0 20px 0;
+}
+.price .container .price_flex .price_left .price_discont:last-child {
+  margin: 0 0 0 0;
 }
 .price .container .price_flex .price_left .price_discont h3 {
   font-family: "Clash Grotesk";
@@ -690,7 +695,7 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
   color: #F5F5F5;
   font-size: 78px;
   font-weight: 400;
-  padding: 35px 0 25px 0;
+  padding: 35px 0 10px 0;
 }
 .price .container .price_flex .price_left .price_discont .small_header {
   font-family: "Clash Grotesk";
@@ -713,6 +718,9 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
   display: -ms-flexbox;
   display: flex;
 }
+.price .container .price_flex .price_left .price_discont .promo_flex .promo_left {
+  padding: 11px 20px 0 0;
+}
 .price .container .price_flex .price_left .price_discont .promo_flex .promo_left p {
   font-family: "Clash Grotesk";
   text-transform: uppercase;
@@ -720,14 +728,84 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
   font-size: 16px;
   font-weight: 600;
 }
+.price .container .price_flex .price_left .price_discont .promo_flex .promo_right {
+  background-image: url("../css/images/copyBorder.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
 .price .container .price_flex .price_left .price_discont .promo_flex .promo_right .promo_cod_flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+.price .container .price_flex .price_left .price_discont .promo_flex .promo_right .promo_cod_flex p {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #F7F6F2;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 9px 20px 9px 16px;
+}
 .price .container .price_flex .price_left .price_discont .promo_flex .promo_right .promo_cod_flex img {
+  height: 1%;
   width: 100%;
+  padding: 7px 12px 0 0;
 }
 .price .container .price_flex .price_right {
   width: 50%;
+  padding: 0 0 0 30px;
+}
+.price .container .price_flex .price_right h2 {
+  font-family: "Clash Grotesk Variable";
+  text-transform: uppercase;
+  color: #112221;
+  font-size: 60px;
+  font-weight: 400;
+  padding: 0 0 20px 0;
+}
+.price .container .price_flex .price_right p {
+  font-family: "Clash Grotesk";
+  color: #112221;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 30px 0 30px 0;
+}
+.price .container .price_flex .price_right .info_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.price .container .price_flex .price_right .info_flex .info_left {
+  width: 50%;
+  padding: 0 40px 0 0;
+}
+.price .container .price_flex .price_right .info_flex .info_left p {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  border-bottom: solid 1px #6D7775;
+  color: #1D1D1D;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 40px 0;
+  margin: 0 0 20px 0;
+}
+.price .container .price_flex .price_right .info_flex .info_left p:last-child {
+  margin: 0 0 0 0;
+}
+.price .container .price_flex .price_right .info_flex .cost_right {
+  width: 50%;
+}
+.price .container .price_flex .price_right .info_flex .cost_right p {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  border-bottom: solid 1px #6D7775;
+  color: #1D1D1D;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 40px 0;
+  margin: 0 0 20px 0;
+}
+.price .container .price_flex .price_right .info_flex .cost_right p:last-child {
+  margin: 0 0 0 0;
 }
