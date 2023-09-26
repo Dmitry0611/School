@@ -809,3 +809,99 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
 .price .container .price_flex .price_right .info_flex .cost_right p:last-child {
   margin: 0 0 0 0;
 }
+.price .container .price_flex .price_right .price_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../css/images/borderBtnPrice.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 129px 0 0 0;
+}
+.price .container .price_flex .price_right .price_btn:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.price .container .price_flex .price_right .price_btn a {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #1D1D1D;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 30px 0 30px 0;
+}
+
+.awards .container .awards_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: solid 1px #6D7775;
+  padding: 50px 0 0 0;
+}
+.awards .container .awards_flex .awards_left {
+  width: 14%;
+  margin: 0 185px 0 0;
+}
+.awards .container .awards_flex .awards_left h2 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  background-image: url("../css/images/price_border.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #1D1D1D;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px 25px;
+}
+.awards .container .awards_flex .awards_right {
+  width: 70%;
+  padding: 15px 0 50px 0;
+}
+.awards .container .awards_flex .awards_right .right_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid 1px #6D7775;
+  padding: 50px 0 50px 0;
+}
+.awards .container .awards_flex .awards_right .right_flex:first-child {
+  padding: 0 0 50px 0;
+}
+.awards .container .awards_flex .awards_right .right_flex .awards_year h3 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #1D1D1D;
+  font-size: 22px;
+  font-weight: 600;
+}
+.awards .container .awards_flex .awards_right .right_flex .awards_info h4 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #1D1D1D;
+  font-size: 22px;
+  font-weight: 600;
+}
+.awards .container .awards_flex .awards_right .right_flex .awards_text p {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  opacity: 0.7;
+  color: #1D1D1D;
+  font-size: 18px;
+  font-weight: 500;
+}
