@@ -905,3 +905,79 @@ section .container .advantages_flex .advantages_right .advantages_content .margi
   font-size: 18px;
   font-weight: 500;
 }
+
+.review .container .review_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.review .container .review_flex .left_flex {
+  width: 13%;
+  margin: 0 359px 0 0;
+}
+.review .container .review_flex .left_flex h2 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  background-image: url("../css/images/price_border.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #1D1D1D;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px 25px;
+}
+.review .container .review_flex .right_flex {
+  width: 81%;
+}
+.review .container .review_flex .right_flex h3 {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  line-height: 1;
+  color: #1D1D1D;
+  font-size: 64px;
+  font-weight: 400;
+  padding: 0 0 50px 0;
+}
+.review .container .review_flex .right_flex h3 span {
+  font-family: "Clash Grotesk";
+  text-transform: uppercase;
+  color: #E87594;
+  font-size: 64px;
+  font-weight: 400;
+}
+.review .container .review_flex .right_flex p {
+  font-family: "Clash Grotesk";
+  color: #1D1D1D;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 0 0 50px 0;
+}
+.review .container .review_flex .right_flex .review_slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.review .container .review_flex .right_flex .review_slider .review_slider_left .user h4 {
+  font-family: "Clash Grotesk Variable";
+  color: #1D1D1D;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 13px 0 5px 0;
+}
+.review .container .review_flex .right_flex .review_slider .review_slider_left .user p {
+  font-family: "Clash Grotesk Variable";
+  opacity: 0.7;
+  color: #1D1D1D;
+  font-size: 16px;
+  font-weight: 400;
+}
+.review .container .review_flex .right_flex .review_slider .review_slider_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 250px 0 0 130px;
+}
+.review .container .review_flex .right_flex .review_slider .review_slider_right .prev2 {
+  padding: 0 20px 0 0;
+}
